@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>教学辅助系统</title>
+</head>
+<body>
+  <h1>教学辅助 Demo</h1>
+
+  <h2>教师发布作业</h2>
+  <input id="hw" placeholder="作业内容">
+  <button onclick="publish()">发布</button>
+
+  <h2>学生提交作业</h2>
+  <input id="name" placeholder="姓名"><br>
+  <input id="content" placeholder="提交内容"><br>
+  <button onclick="submitHW()">提交</button>
+
+  <h2>教师查看提交</h2>
+  <button onclick="loadAll()">刷新</button>
+  <pre id="show"></pre>
+
+<script>
+function publish() {
+  fetch("/publish", {
+    method: "POST",
+    headers: {"Content-Type": "application/json"},
+    body: JSON.stringify({text: document.getElementById("hw").value})
+  }).then(r=>r.json()).then(a=>alert(a.msg));
+}
+
+function submitHW() {
+  fetch("/submit", {
+    method: "POST",
+    headers: {"Content-Type": "application/json"},
+    body: JSON.stringify({
+      name: document.getElementById("name").value,
+      content: document.getElementById("content").value
+    })
+  }).then(r=>r.json()).then(a=>alert(a.msg));
+}
+
+function loadAll() {
+  fetch("/all")
+    .then(r=>r.json())
+    .then(data=>{
+      document.getElementById("show").textContent = JSON.stringify(data, null, 2);
+    });
+}
+</script>
+</body>
+</html>
